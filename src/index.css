@@ -1,0 +1,73 @@
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+}
+
+#calc-container  {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.calc-grid-container .calc-display
+{
+    width: 100%;
+    background-color: antiquewhite;
+    color: darkslategrey;
+    font-size: 18pt;
+    padding: 12px 6px;
+    height: 75%;
+}
+
+.display-screen {
+  font-weight: 600;
+}
+
+.card-container {
+  min-width: 28rem;
+}
+
+.card-title {
+  font-family: 'Coiny', cursive;
+  font-size: 33px !important;
+  margin-bottom: 40px !important;
+}
+
+.m-b-0 {
+  margin-bottom: 0 !important;
+}
+
+.m-l-5 {
+  margin-left: 5px;
+}
+
+.m-l-10 {
+  margin-left: 10px;
+}
+
+.m-l-20 {
+  margin-left: 20px;
+}
+
+.m-t-10 {
+  margin-top: 10px;
+}
+
+.m-r-5 {
+  margin-right: 5px;
+}
+
+.no-border {
+  border: none !important;
+}
+
+.no-border:focus {
+  border: none !important;
+}
+
+.font-s-16 {
+  font-size: 16pt !important;
+}
